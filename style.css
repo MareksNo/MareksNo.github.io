@@ -59,7 +59,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 
-  transition: all 2s ease;
+  transition: all 1s ease;
 }
 
 li a:hover {
@@ -99,6 +99,11 @@ form label {
   font-size: 1.4rem;
 }
 
+#questionForm {
+  background-color: transparent;
+  padding: 0;
+}
+
 input[type="submit"] {
   width: 100%;
   height: 3.5vh;
@@ -106,6 +111,8 @@ input[type="submit"] {
   border: 2px solid black;
   background-color: rgba(41, 36, 36, 0.699);
   color: white;
+
+  transition: all 1s ease;
 }
 
 input[type="submit"]:hover {
